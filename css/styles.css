@@ -1,18 +1,18 @@
 /* Home */
-@import "/css/global/home/global.css";
-@import "/css/global//home/header.css";
-@import "/css/global/home/introducao.css";
-@import "/css/global/home/tipografia.css";
-@import "/css/global/home/cores.css";
-@import "/css/global/home/bicicletas-listas.css";
-@import "/css/global/home/tecnologia.css";
-@import "/css/global/home/parceiros.css";
-@import "/css/global/home/depoimente.css";
-@import "/css/global/home/seguro.css";
-@import "/css/global/home/footer.css";
+@import "./css/global/home/global.css";
+@import "./css/global//home/header.css";
+@import "./css/global/home/introducao.css";
+@import "./css/global/home/tipografia.css";
+@import "./css/global/home/cores.css";
+@import "./css/global/home/bicicletas-listas.css";
+@import "./css/global/home/tecnologia.css";
+@import "./css/global/home/parceiros.css";
+@import "./css/global/home/depoimente.css";
+@import "./css/global/home/seguro.css";
+@import "./css/global/home/footer.css";
 
 /* Termos */
-@import "/css/global/termos/titulo.css";
+@import "./css/global/termos/titulo.css";
 
 /* Bicicletas */
-@import "/css/global/bicicletas/bicicletas.css";
+@import "./css/global/bicicletas/bicicletas.css";
