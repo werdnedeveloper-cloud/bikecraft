@@ -8,7 +8,7 @@
 }
 
 .bicicletas-principal:nth-child(even) {
-    background: var(--cor-12);
+    background: var(--cor-0);
 }
 
 .bicicletas-principal {
