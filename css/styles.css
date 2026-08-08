@@ -1,18 +1,18 @@
 /* Home */
-@import "./css/global/home/global.css";
-@import "./css/global//home/header.css";
-@import "./css/global/home/introducao.css";
-@import "./css/global/home/tipografia.css";
-@import "./css/global/home/cores.css";
-@import "./css/global/home/bicicletas-listas.css";
-@import "./css/global/home/tecnologia.css";
-@import "./css/global/home/parceiros.css";
-@import "./css/global/home/depoimente.css";
-@import "./css/global/home/seguro.css";
-@import "./css/global/home/footer.css";
+@import "./global/home/global.css";
+@import "./global/home/header.css";
+@import "./global/home/introducao.css";
+@import "./global/home/tipografia.css";
+@import "./global/home/cores.css";
+@import "./global/home/bicicletas-listas.css";
+@import "./global/home/tecnologia.css";
+@import "./global/home/parceiros.css";
+@import "./global/home/depoimente.css";
+@import "./global/home/seguro.css";
+@import "./global/home/footer.css";
 
 /* Termos */
-@import "./css/global/termos/titulo.css";
+@import "./global/termos/titulo.css";
 
 /* Bicicletas */
-@import "./css/global/bicicletas/bicicletas.css";
+@import "./global/bicicletas/bicicletas.css";
