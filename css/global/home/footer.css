@@ -1,5 +1,9 @@
 .footer {
     background-color: var(--cor-12);
+    margin: 0;
+    margin-bottom: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 .footer-container {
