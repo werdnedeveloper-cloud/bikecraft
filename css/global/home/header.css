@@ -1,4 +1,4 @@
-@import '/css/global/cores.css';
+@import './cores.css';
 
 img {
     max-width: 100%;

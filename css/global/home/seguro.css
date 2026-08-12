@@ -1,4 +1,4 @@
-@import "/css/global/cores.css";
+@import "./cores.css";
 
 .seguro-principal {
     background-color: var(--cor-11);
