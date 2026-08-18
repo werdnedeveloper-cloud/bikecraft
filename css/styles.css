@@ -15,7 +15,9 @@
 @import "./global/termos/titulo.css";
 
 /* Bicicletas */
-@import "./global/bicicletas/bicicletas.css";
+@import "./bicicletas/bicicletas.css";
+@import "./bicicletas/nimbus.css";
+@import "./bicicletas/seguro-bicicletas.css";
 
 /* Seguros */
 @import "./seguros/vantagens.css";
