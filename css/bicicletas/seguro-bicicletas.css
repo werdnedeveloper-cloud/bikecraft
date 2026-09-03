@@ -9,20 +9,20 @@
     margin-right: auto;
 }
 
-.seguro-principal {
+.seguro-bg {
     background-color: var(--cor-11);
     box-shadow: inset 0 120px var(--cor-0), inset 0 -120px var(--cor-12);
 }
 
-.seguro-imagem img k{
+.seguro-imagem img{
     width: 100%;
     height: 100%;
     object-fit: cover;
 }
 
 .seguro-conteudo {
-    padding-top: 120px;
-    padding-bottom: 120px;
+    padding-top: 180px;
+    padding-bottom: 180px;
 }
 
 .seguro-container h2 {
@@ -34,7 +34,7 @@
 }
 
 @media (max-width: 800px) {
-    .seguro-principal{ 
+    .seguro-bg{ 
     box-shadow: inset 0 -60px var(--cor-12);
     }
 
@@ -42,13 +42,14 @@
         grid-template-columns: 1fr;
     }
 
-    .seguro-imagem img { 
+    .seguro-imagem {
+        height: 200px; 
         margin-bottom: 40px;
     }
 
     .seguro-conteudo {
         grid-row: 1;
-        padding-top: 0px;
+        padding-top: 40px;
         padding-bottom: 0px;
     }
 }

@@ -48,19 +48,22 @@ h1, p {
 .botao {
     display: inline-block;
     padding: 16px 32px;
-    background-color: var(--cor-p1);
-    color: var(--cor-12);
+    background: linear-gradient(#ffb000, #f2a50c);
+    color: var(--cor-p5);
     font-size: 18px;
     border-radius: 4px;
     transition: 0.5s;
     position: relative;
     text-transform: uppercase;
     font: 600 1.125rem/1.35 'Poppins', sans-serif;
+    border: none;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+    max-width: max-content;
+    cursor: pointer;
 }
 
 .botao:hover {
-    background-color: var(--cor-p3);
-    color: var(--cor-12);
+    background: linear-gradient(#ffb60d, #e59317);
 }
 
 @media (max-width: 1120px) {
