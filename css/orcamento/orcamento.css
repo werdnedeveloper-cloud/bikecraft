@@ -5,21 +5,12 @@
 .orcamento {
     display: grid;
     grid-template-columns: 5fr 7fr;
-    gap: 0;
-    width: 100%;
     padding-bottom: 120px;
 }
 
 .orcamento h2 {
     text-transform: uppercase;
     position: relative;
-    margin: 0px;
-    padding: 0px;
-}
-
-.orcamento-produto h2 {
-    margin: 0px;
-    padding: 0px; 
 }
 
 .orcamento h2::before {
@@ -41,9 +32,27 @@
 .orcamento-produto {
     border-radius: 5px 0 0 5px;
     background: var(--cor-12);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px; 
+    align-content: start;
+}
+
+.orcamento-produto > *  {
+    grid-column: 1/-1;
+}
+
+.orcamento-produto label {
+    color: var(--cor-5);
+    background-color: var(--cor-10);
 }
 
 .orcamento-dados {
     border-radius: 0 5px 5px 0;
     background: var(--cor-0);
+}
+
+#bikecraft:checked ~ #orcamento-bikecraft,
+#seguros:checked ~ #orcamento-seguros {
+    display: block;
 }
