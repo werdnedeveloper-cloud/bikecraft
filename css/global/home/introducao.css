@@ -1,8 +1,5 @@
-@import '/css/global/cores.css';
-@import '/css/global/tipografia.css';
-
 .introducao-bg {
-    background-color: var(--cor-12);
+    background: var(--cor-12) url("../../../img/dec/bottom-left.svg") no-repeat bottom 160px left 160px;
     color: var(--cor-0);
     box-shadow: inset 0px -120px var(--cor-0);
 }
@@ -105,6 +102,18 @@ h1, p {
 
     .introducao p {
         font-size: 16px;
+    }
+}
+
+@media (max-width: 1400px) {
+    .introducao-bg {
+        background: var(--cor-12) url("../../../img/dec/bottom-left.svg") no-repeat bottom 150px left 50px;
+    }
+}
+
+@media (max-width: 1200px) {
+    .introducao-bg {
+        background: var(--cor-12) url("../../../img/dec/bottom-left.svg") no-repeat bottom 150px left 15px;
     }
 }
 

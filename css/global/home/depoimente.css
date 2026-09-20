@@ -8,7 +8,7 @@ blockquote {
 .depoimente {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    background-color: var(--cor-p1);
+    background: var(--cor-p1) url("../../../img/dec/bottom-right.svg") no-repeat bottom 160px right 160px;
     margin: 0;
     padding: 0px;
 }
@@ -69,6 +69,13 @@ blockquote {
     position: absolute;
     bottom: -50px;
 }
+
+@media (max-width: 1200px) { 
+    .depoimente img {
+        max-height: 520px;
+    }
+}
+
 
 @media (max-width: 800px) {
     .depoimente {
